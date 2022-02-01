@@ -20,5 +20,5 @@ React Testing Library (Component Test)
 ## Scripts That You Can use
 
 npm start: To run the application <br/>
-sudo docker run -p 3000:3000 --name react-frontend-dev frontend-app-dev: A block prepared to run Docker <br/>
+docker run -p 3000:3000 --name react-frontend-dev frontend-app-dev: A block prepared to run Docker <br/>
 npm run test : Component Test <br/>
