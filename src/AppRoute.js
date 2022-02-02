@@ -1,4 +1,4 @@
-import {HomePage,UserList,FullUserProfile, U} from './Components/İndex';
+import {HomePage,UserList,FullUserProfile} from './Components/İndex';
 import React from "react";
 import {
   Route,Routes
@@ -10,7 +10,6 @@ export default function AppRoute() {
         <Route path = "/" exact element = {<HomePage/>}  />
         <Route path = "/users" exact element = {<UserList/>}/> 
         <Route path = "/user/:id" exact element = {<FullUserProfile/>}/>
-        <Route path = "/deneme" exact element = {<U/>}/>
     
     </Routes>
   );

@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component } from 'react/cjs/react.production.min';
 import {BrowserRouter} from "react-router-dom";
-import Headers from './Components/Header';
+import Header from './Components/Header/Header';
 import AppRoute from './AppRoute';
 
 
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
        
       <BrowserRouter>
-        <Headers/>
+        <Header/>
         <AppRoute/>
       </BrowserRouter>
 

@@ -1,0 +1,94 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  ::selection{
+    background: #8e44ad;
+    color: #fff;
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #8e44ad;
+  
+  }
+  .containerFullUserList{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    min-width: min-content;
+  }
+  .containerFullUserList .boxFullUserList{
+    width: calc(100% - 10px);
+    background: #fff;
+    padding:  30px;
+    border-radius: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+  .boxFullUserList .quote i{
+  margin-top: 10px;
+  font-size: 10;
+  color: #17c0eb
+  }
+  .containerFullUserList .boxFullUserList .imageFullUserList{
+    margin: 10px 0;
+    width: 100px;
+    height: 100px;
+    background: #8e44ad;
+    padding: 3px;
+    border-radius: 50%;
+  }
+  .boxFullUserList .imageFullUserList img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+  }
+  .boxFullUserList p{
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .boxFullUserList .name_jobss{
+    margin: 10px 0 3px 0;
+    color: #8e44ad;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  @media (max-width:1045px){
+    .containerss .boxFullUserList{
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width:710px){
+    .containerss .boxFullUserList{
+      width: 100%;
+    }
+  }
+
+  .up-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .up-divs{
+    margin-right: 4px;
+
+  }
+  
+ 

@@ -1,6 +1,5 @@
-import HomePage from './HomePage';
-import FullUserProfile from './FullUserProfile';
-import UserList from './UserList';
-import U from './sdasdas'
+import HomePage from './HomePage/HomePage';
+import FullUserProfile from './FullUserProfile/FullUserProfile';
+import UserList from './UserList/UserList';
 
-export{HomePage,FullUserProfile,UserList,U}
+export{HomePage,FullUserProfile,UserList}
